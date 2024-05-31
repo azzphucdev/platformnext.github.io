@@ -9,45 +9,31 @@ function checkData(){
     fetch('/config.json')
   .then(response => response.json())
   .then(dataJSON => {
-    console.log(dataJSON);
-    for(let i=0;i<dataJSON.length;i++){
-        let data = dataJSON[i];
-        let type = data['type'];
-        let versionName = data['versionName'];
-        let versionCode = data['versionCode'];
-        let updateAt = data['updateAt'];
+    let versionName = dataJSON['versionName'];
+        let versionCode = dataJSON['versionCode'];
+        let updateAt = dataJSON['updateAt'];
         let info = "Info Update: "+updateAt+" | "+versionName + " ("+versionCode+")";
+        document.getElementById('info').innerHTML = info+". Download Now !!";
+    for(let i=0;i<dataJSON['data'].length;i++){
+        let data = dataJSON['data'][i];
+        let type = data['type'];
         let downloadLink = data['downloadLink'];
         switch(type){
             case "Android":
-                document.getElementById("text-android").innerHTML = "For Android<br>"+info;
-                document.getElementById('download-android').addEventListener('click', () => {
-                    window.location.href = downloadLink;
-                });
+                // document.getElementById("text-android").innerHTML = "For Android<br>"+info;
+                document.getElementById('android').href = downloadLink;
                 break;
                 case "Window64":
-                document.getElementById("text-window").innerHTML = "For Window64<br>"+info;
-                document.getElementById('download-window').addEventListener('click', () => {
-                    window.location.href = downloadLink;
-                });
+                    document.getElementById('window').href = downloadLink;
                 break;
                 case "Linux":
-                document.getElementById("text-linux").innerHTML = "For Linux<br>"+info;
-                document.getElementById('download-linux').addEventListener('click', () => {
-                    window.location.href = downloadLink;
-                });
+                    document.getElementById('linux').href = downloadLink;
                 break;
                 case "MacOS":
-                document.getElementById("text-macos").innerHTML = "For macOS<br>"+info;
-                document.getElementById('download-macos').addEventListener('click', () => {
-                    window.location.href = downloadLink;
-                });
+                    document.getElementById('macos').href = downloadLink;
                 break;
                 case "IOS":
-                document.getElementById("text-ios").innerHTML = "For IOS<br>"+info;
-                document.getElementById('download-ios').addEventListener('click', () => {
-                    window.location.href = downloadLink;
-                });
+                    document.getElementById('ios').href = downloadLink;
                 break;
             default:
                 console.log("Not Support This Platform");

@@ -1,33 +1,42 @@
-[
-    {
-        "type":"Android",
-        "versionName": "1.0.0",
-        "versionCode": 1,
-        "updateAt":"31/05/2024",
-        "downloadLink":"https://m.tiktok.com"
-    },{
-        "type":"Window64",
-        "versionName": "1.0.0",
-        "versionCode": 1,
-        "updateAt":"31/05/2024",
-        "downloadLink":"m.tiktok.com"
-    },{
-        "type":"Linux",
-        "versionName": "1.0.0",
-        "versionCode": 1,
-        "updateAt":"31/05/2024",
-        "downloadLink":"m.tiktok.com"
-    },{
-        "type":"MacOS",
-        "versionName": "1.0.0",
-        "versionCode": 1,
-        "updateAt":"31/05/2024",
-        "downloadLink":"m.tiktok.com"
-    },{
-        "type":"IOS",
-        "versionName": "1.0.0",
-        "versionCode": 1,
-        "updateAt":"31/05/2024",
-        "downloadLink":"m.tiktok.com"
-    }
-]
+{
+    "versionName": "1.0.0",
+    "versionCode": 1,
+    "updateAt": "31/05/2024",
+    "data": [
+        {
+            "type": "Android",
+            "versionName": "1.0.0",
+            "versionCode": 1,
+            "updateAt": "31/05/2024",
+            "downloadLink": "https://m.tiktok.com"
+        },
+        {
+            "type": "Window64",
+            "versionName": "1.0.0",
+            "versionCode": 1,
+            "updateAt": "31/05/2024",
+            "downloadLink": "m.tiktok.com"
+        },
+        {
+            "type": "Linux",
+            "versionName": "1.0.0",
+            "versionCode": 1,
+            "updateAt": "31/05/2024",
+            "downloadLink": "m.tiktok.com"
+        },
+        {
+            "type": "MacOS",
+            "versionName": "1.0.0",
+            "versionCode": 1,
+            "updateAt": "31/05/2024",
+            "downloadLink": "m.tiktok.com"
+        },
+        {
+            "type": "IOS",
+            "versionName": "1.0.0",
+            "versionCode": 1,
+            "updateAt": "31/05/2024",
+            "downloadLink": "m.tiktok.com"
+        }
+    ]
+}
