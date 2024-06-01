@@ -59,6 +59,7 @@ function checkData(){
 function updateDownloaded() {
     fetch(url_downloaded,{
         method: "POST",
+        mode: "cors",
         headers: headers
     }).then(response => response.text())
     .then(data => {
@@ -67,6 +68,8 @@ function updateDownloaded() {
 }
 function initDownloaded(){
     fetch(url_downloaded,{
+        method: "GET",
+        mode: "cors",
         headers: headers
     })
     .then(response => response.text())
