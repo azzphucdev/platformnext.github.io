@@ -8,28 +8,28 @@
             "versionName": "1.0.0",
             "versionCode": 1,
             "updateAt": "31/05/2024",
-            "downloadLink": "download/android.apk"
+            "downloadLink": "download/PlatformNext.apk"
         },
         {
             "type": "Window64",
             "versionName": "1.0.0",
             "versionCode": 1,
             "updateAt": "31/05/2024",
-            "downloadLink": "download/window64.exe"
+            "downloadLink": "download/PlatformNext.exe"
         },
         {
             "type": "Linux1",
             "versionName": "1.0.0",
             "versionCode": 1,
             "updateAt": "31/05/2024",
-            "downloadLink": "download/linux1.deb"
+            "downloadLink": "download/PlatformNext.deb"
         },
         {
             "type": "Linux2",
             "versionName": "1.0.0",
             "versionCode": 1,
             "updateAt": "31/05/2024",
-            "downloadLink": "download/linux2.rpm"
+            "downloadLink": "download/PlatformNext.rpm"
         },
         {
             "type": "MacOS",
