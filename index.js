@@ -21,21 +21,27 @@ function checkData(){
         switch(type){
             case "Android":
                 // document.getElementById("text-android").innerHTML = "For Android<br>"+info;
+                document.getElementById('android').onclick = updateDownloaded;
                 document.getElementById('android').href = downloadLink;
                 break;
                 case "Window64":
+                    document.getElementById('window').onclick = updateDownloaded;
                     document.getElementById('window').href = downloadLink;
                 break;
                 case "Linux1":
+                    document.getElementById('linux1').onclick = updateDownloaded;
                     document.getElementById('linux1').href = downloadLink;
                 break;
                 case "Linux2":
+                    document.getElementById('linux2').onclick = updateDownloaded;
                     document.getElementById('linux2').href = downloadLink;
                 break;
                 case "MacOS":
+                    document.getElementById('macos').onclick = updateDownloaded;
                     document.getElementById('macos').href = downloadLink;
                 break;
                 case "IOS":
+                    document.getElementById('ios').onclick = updateDownloaded;
                     document.getElementById('ios').href = downloadLink;
                 break;
             default:
@@ -43,5 +49,21 @@ function checkData(){
                 break;
         }
     }
+    initDownloaded();
+  });
+}
+function updateDownloaded() {
+    fetch("index.php",{
+        method: "POST"
+    }).then(response => response.text())
+    .then(data => {
+        console.log(data);
+    });
+}
+function initDownloaded(){
+    fetch("index.php")
+    .then(response => response.text())
+  .then(data => {
+    document.getElementById("total-download").innerHTML = data;
   });
 }
