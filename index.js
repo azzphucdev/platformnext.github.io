@@ -53,7 +53,7 @@ function checkData(){
   });
 }
 function updateDownloaded() {
-    fetch("index.php",{
+    fetch("downloaded.php",{
         method: "POST"
     }).then(response => response.text())
     .then(data => {
@@ -61,7 +61,7 @@ function updateDownloaded() {
     });
 }
 function initDownloaded(){
-    fetch("index.php")
+    fetch("downloaded.php")
     .then(response => response.text())
   .then(data => {
     document.getElementById("total-download").innerHTML = "Downloaded: "+data+"+";
