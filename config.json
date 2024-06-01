@@ -1,35 +1,35 @@
 {
     "versionName": "1.0.0",
     "versionCode": 1,
-    "updateAt": "31/05/2024",
+    "updateAt": "1/06/2024",
     "data": [
         {
             "type": "Android",
             "versionName": "1.0.0",
             "versionCode": 1,
             "updateAt": "31/05/2024",
-            "downloadLink": "/android.apk"
+            "downloadLink": "android.apk"
         },
         {
             "type": "Window64",
             "versionName": "1.0.0",
             "versionCode": 1,
             "updateAt": "31/05/2024",
-            "downloadLink": "/window64.exe"
+            "downloadLink": "window64.exe"
         },
         {
             "type": "Linux1",
             "versionName": "1.0.0",
             "versionCode": 1,
             "updateAt": "31/05/2024",
-            "downloadLink": "/Linux1.deb"
+            "downloadLink": "linux1.deb"
         },
         {
             "type": "Linux2",
             "versionName": "1.0.0",
             "versionCode": 1,
             "updateAt": "31/05/2024",
-            "downloadLink": "/Linux2.rpm"
+            "downloadLink": "linux2.rpm"
         },
         {
             "type": "MacOS",
