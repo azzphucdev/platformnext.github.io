@@ -1,4 +1,7 @@
 const url_downloaded = "https://dev.hack4g.me/DownloadPlatformNext.php";
+const headers = {'Content-Type':'application/json',
+                    'Access-Control-Allow-Origin':'*',
+                    'Access-Control-Allow-Methods':'GET,POST'}
 document.addEventListener('DOMContentLoaded', function () {
     autoCheck();
 });
@@ -55,14 +58,17 @@ function checkData(){
 }
 function updateDownloaded() {
     fetch(url_downloaded,{
-        method: "POST"
+        method: "POST",
+        headers: headers
     }).then(response => response.text())
     .then(data => {
         console.log(data);
     });
 }
 function initDownloaded(){
-    fetch(url_downloaded)
+    fetch(url_downloaded,{
+        headers: headers
+    })
     .then(response => response.text())
   .then(data => {
     document.getElementById("total-download").innerHTML = "Downloaded: "+data+"+";
