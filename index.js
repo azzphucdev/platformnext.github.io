@@ -26,8 +26,11 @@ function checkData(){
                 case "Window64":
                     document.getElementById('window').href = downloadLink;
                 break;
-                case "Linux":
-                    document.getElementById('linux').href = downloadLink;
+                case "Linux1":
+                    document.getElementById('linux1').href = downloadLink;
+                break;
+                case "Linux2":
+                    document.getElementById('linux2').href = downloadLink;
                 break;
                 case "MacOS":
                     document.getElementById('macos').href = downloadLink;
