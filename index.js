@@ -1,11 +1,3 @@
-const url_downloaded = "https://dev.hack4g.me/DownloadPlatformNext.php";
-const headersData = {
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, HEAD',
-    'Access-Control-Allow-Headers': 'Origin, Content-Type, Accept, Authorization, X-Request-With',
-    'Access-Control-Allow-Credentials': true,
-    'Access-Control-Max-Age': 10080
-}
 document.addEventListener('DOMContentLoaded', function () {
     autoCheck();
 });
@@ -60,24 +52,37 @@ function checkData() {
             initDownloaded();
         });
 }
+const url_downloaded = "https://dev.hack4g.me/DownloadPlatformNext.php";
+const headersData = {
+    'Content-Type': 'application/json; charset=UTF-8'
+}
+
 function updateDownloaded() {
     fetch(url_downloaded, {
-        method: "POST",
-        mode: "cors",
+        method: 'POST',
         headers: headersData
-    }).then(response => response.text())
-        .then(data => {
-            console.log(data);
-        });
+    })
+    .then(response => response.text())
+    .then(data => {
+        if(data === 'Success'){
+            initDownloaded();
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
 }
+
 function initDownloaded() {
     fetch(url_downloaded, {
-        method: "GET",
-        mode: "cors",
+        method: 'GET',
         headers: headersData,
     })
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("total-download").innerHTML = "Downloaded: " + data + "+";
-        });
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("total-download").innerHTML = "Total Downloaded: " + data + "+";
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
 }
