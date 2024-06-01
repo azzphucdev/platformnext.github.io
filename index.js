@@ -1,3 +1,4 @@
+const url_downloaded = "https://dev.hack4g.me/DownloadPlatformNext.php";
 document.addEventListener('DOMContentLoaded', function () {
     autoCheck();
 });
@@ -53,7 +54,7 @@ function checkData(){
   });
 }
 function updateDownloaded() {
-    fetch("downloaded.php",{
+    fetch(url_downloaded,{
         method: "POST"
     }).then(response => response.text())
     .then(data => {
@@ -61,7 +62,7 @@ function updateDownloaded() {
     });
 }
 function initDownloaded(){
-    fetch("downloaded.php")
+    fetch(url_downloaded)
     .then(response => response.text())
   .then(data => {
     document.getElementById("total-download").innerHTML = "Downloaded: "+data+"+";
