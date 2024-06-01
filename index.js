@@ -64,6 +64,6 @@ function initDownloaded(){
     fetch("index.php")
     .then(response => response.text())
   .then(data => {
-    document.getElementById("total-download").innerHTML = data;
+    document.getElementById("total-download").innerHTML = "Downloaded: "+data+"+";
   });
 }
