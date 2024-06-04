@@ -1,7 +1,7 @@
 {
     "versionName": "1.0.0",
     "versionCode": 1,
-    "updateAt": "1/06/2024",
+    "updateAt": "04/06/2024",
     "data": [
         {
             "type": "Android",
@@ -43,7 +43,7 @@
             "versionName": "1.0.0",
             "versionCode": 1,
             "updateAt": "31/05/2024",
-            "downloadLink": "m.tiktok.com"
+            "downloadLink": "https://testflight.apple.com/join/ntqwoorV"
         }
     ]
 }
