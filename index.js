@@ -21,27 +21,27 @@ function checkData() {
                 switch (type) {
                     case "Android":
                         // document.getElementById("text-android").innerHTML = "For Android<br>"+info;
-                        document.getElementById('android').onclick = updateDownloaded;
+                        document.getElementById('android').onclick = updateDownloaded('android');
                         document.getElementById('android').href = downloadLink;
                         break;
                     case "Window64":
-                        document.getElementById('window').onclick = updateDownloaded;
+                        document.getElementById('window').onclick = updateDownloaded('window');
                         document.getElementById('window').href = downloadLink;
                         break;
                     case "Linux1":
-                        document.getElementById('linux1').onclick = updateDownloaded;
+                        document.getElementById('linux1').onclick = updateDownloaded('linux1');
                         document.getElementById('linux1').href = downloadLink;
                         break;
                     case "Linux2":
-                        document.getElementById('linux2').onclick = updateDownloaded;
+                        document.getElementById('linux2').onclick = updateDownloaded('linux2');
                         document.getElementById('linux2').href = downloadLink;
                         break;
                     case "MacOS":
-                        document.getElementById('macos').onclick = updateDownloaded;
+                        document.getElementById('macos').onclick = updateDownloaded('macos');
                         document.getElementById('macos').href = downloadLink;
                         break;
                     case "IOS":
-                        document.getElementById('ios').onclick = updateDownloaded;
+                        document.getElementById('ios').onclick = updateDownloaded('ios');
                         document.getElementById('ios').href = downloadLink;
                         break;
                     default:
@@ -57,10 +57,10 @@ const headersData = {
     'Content-Type': 'application/json; charset=UTF-8'
 }
 
-function updateDownloaded() {
+function updateDownloaded(type_device) {
     fetch(url_downloaded, {
         method: 'POST',
-        headers: headersData
+        headers: {'Content-Type': 'application/json; charset=UTF-8','device':type_device}
     })
     .then(response => response.text())
     .then(data => {
