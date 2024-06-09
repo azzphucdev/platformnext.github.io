@@ -21,27 +21,39 @@ function checkData() {
                 switch (type) {
                     case "Android":
                         // document.getElementById("text-android").innerHTML = "For Android<br>"+info;
-                        document.getElementById('android').onclick = updateDownloaded('android');
+                        document.getElementById('android').onclick = function() {
+                            updateDownloaded('android');
+                        };
                         document.getElementById('android').href = downloadLink;
                         break;
                     case "Window64":
-                        document.getElementById('window').onclick = updateDownloaded('window');
+                        document.getElementById('window').onclick = function() {
+                            updateDownloaded('window');
+                        };
                         document.getElementById('window').href = downloadLink;
                         break;
                     case "Linux1":
-                        document.getElementById('linux1').onclick = updateDownloaded('linux1');
+                        document.getElementById('linux1').onclick = function() {
+                            updateDownloaded('linux1');
+                        };
                         document.getElementById('linux1').href = downloadLink;
                         break;
                     case "Linux2":
-                        document.getElementById('linux2').onclick = updateDownloaded('linux2');
+                        document.getElementById('linux2').onclick = function() {
+                            updateDownloaded('linux2');
+                        };
                         document.getElementById('linux2').href = downloadLink;
                         break;
                     case "MacOS":
-                        document.getElementById('macos').onclick = updateDownloaded('macos');
+                        document.getElementById('macos').onclick = function() {
+                            updateDownloaded('macos');
+                        };
                         document.getElementById('macos').href = downloadLink;
                         break;
                     case "IOS":
-                        document.getElementById('ios').onclick = updateDownloaded('ios');
+                        document.getElementById('ios').onclick = function() {
+                            updateDownloaded('ios');
+                        };
                         document.getElementById('ios').href = downloadLink;
                         break;
                     default:
