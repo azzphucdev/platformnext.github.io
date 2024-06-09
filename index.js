@@ -52,7 +52,7 @@ function checkData() {
             initDownloaded();
         });
 }
-const url_downloaded = "https://dev.hack4g.me/DownloadPlatformNext.php";
+const url_downloaded = "https://dev.hack4g.me/platformnext/DownloadPlatformNext.php";
 const headersData = {
     'Content-Type': 'application/json; charset=UTF-8'
 }
