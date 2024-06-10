@@ -30,6 +30,12 @@
             "versionCode": 1,
             "updateAt": "31/05/2024",
             "downloadLink": "download/PlatformNext.rpm"
+        },{
+            "type": "Linux3",
+            "versionName": "1.0.0",
+            "versionCode": 1,
+            "updateAt": "31/05/2024",
+            "downloadLink": "download/PlatformNext.AppImage"
         },
         {
             "type": "MacOS",

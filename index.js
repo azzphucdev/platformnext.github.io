@@ -44,6 +44,12 @@ function checkData() {
                         };
                         document.getElementById('linux2').href = downloadLink;
                         break;
+                    case "Linux3":
+                        document.getElementById('linux3').onclick = function() {
+                            updateDownloaded('linux3');
+                        };
+                        document.getElementById('linux3').href = downloadLink;
+                        break;    
                     case "MacOS":
                         document.getElementById('macos').onclick = function() {
                             updateDownloaded('macos');
