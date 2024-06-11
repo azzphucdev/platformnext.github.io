@@ -78,7 +78,7 @@ const headersData = {
 function updateDownloaded(type_device) {
     fetch(url_downloaded, {
         method: 'POST',
-        headers: {'Content-Type': 'application/json; charset=UTF-8','device':type_device}
+        headers: {'Content-Type': 'application/json; charset=UTF-8','Device_ID':type_device}
     })
     .then(response => response.text())
     .then(data => {
