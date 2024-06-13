@@ -1,54 +1,33 @@
 {
     "versionName": "1.0.0",
-    "versionCode": 1,
-    "updateAt": "04/06/2024",
+    "versionCode": 3,
+    "updateAt": "13/06/2024",
     "data": [
         {
             "type": "Android",
-            "versionName": "1.0.0",
-            "versionCode": 1,
-            "updateAt": "31/05/2024",
             "downloadLink": "download/PlatformNext.apk"
         },
         {
             "type": "Window64",
-            "versionName": "1.0.0",
-            "versionCode": 1,
-            "updateAt": "31/05/2024",
             "downloadLink": "download/PlatformNext.exe"
         },
         {
             "type": "Linux1",
-            "versionName": "1.0.0",
-            "versionCode": 1,
-            "updateAt": "31/05/2024",
             "downloadLink": "download/PlatformNext.deb"
         },
         {
             "type": "Linux2",
-            "versionName": "1.0.0",
-            "versionCode": 1,
-            "updateAt": "31/05/2024",
             "downloadLink": "download/PlatformNext.rpm"
         },{
             "type": "Linux3",
-            "versionName": "1.0.0",
-            "versionCode": 1,
-            "updateAt": "31/05/2024",
             "downloadLink": "download/PlatformNext.AppImage"
         },
         {
             "type": "MacOS",
-            "versionName": "1.0.0",
-            "versionCode": 1,
-            "updateAt": "31/05/2024",
             "downloadLink": "download/PlatformNext.dmg"
         },
         {
             "type": "IOS",
-            "versionName": "1.0.0",
-            "versionCode": 1,
-            "updateAt": "31/05/2024",
             "downloadLink": "https://testflight.apple.com/join/ntqwoorV"
         }
     ]
