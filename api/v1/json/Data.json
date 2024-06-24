@@ -1,3 +1,4 @@
 {
-    "useMail": "platformnext.dev"
+    "useMailDefault":"platformnext.dev@gmail.com",
+    "maxDeviceDefault": 1
 }
