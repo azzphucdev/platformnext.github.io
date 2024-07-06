@@ -13,7 +13,7 @@ function checkData() {
             let versionCode = dataJSON['versionCode'];
             let updateAt = dataJSON['updateAt'];
             let info = "Info Update: " + updateAt + " | " + versionName + " (" + versionCode + ")";
-            document.getElementById('info').innerHTML = info + ". Download Now !!";
+            document.getElementById('info').innerHTML = info + ". Tải Xuống Ngay !!";
             for (let i = 0; i < dataJSON['data'].length; i++) {
                 let data = dataJSON['data'][i];
                 let type = data['type'];
@@ -102,7 +102,7 @@ function initDownloaded() {
     })
     .then(response => response.text())
     .then(data => {
-        document.getElementById("total-download").innerHTML = "Total Downloaded: " + data + "+";
+        document.getElementById("total-download").innerHTML = "Tổng Lượt Tải Xuống: " + data + "+";
     })
     .catch(error => {
         console.error('Error:', error);
