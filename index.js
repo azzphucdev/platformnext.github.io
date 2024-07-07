@@ -12,7 +12,7 @@ function checkData() {
             let versionName = dataJSON['versionName'];
             let versionCode = dataJSON['versionCode'];
             let updateAt = dataJSON['updateAt'];
-            let info = "Info Update: " + updateAt + " | " + versionName + " (" + versionCode + ")";
+            let info = "Phiên Bản: " + updateAt + " | " + versionName + " (" + versionCode + ")";
             document.getElementById('info').innerHTML = info + ". Tải Xuống Ngay !!";
             for (let i = 0; i < dataJSON['data'].length; i++) {
                 let data = dataJSON['data'][i];
