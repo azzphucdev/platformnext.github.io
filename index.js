@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     autoCheck();
 });
 function autoCheck() {
-    setTimeout(autoCheck, 30000);
+    setTimeout(autoCheck, 60000);
     checkData();
 }
 function checkData() {
