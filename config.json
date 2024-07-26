@@ -1,7 +1,11 @@
 {
     "versionName": "1.0.0",
     "versionCode": 8,
+<<<<<<< HEAD
     "updateAt": "24/07/2024",
+=======
+    "updateAt": "25/07/2024",
+>>>>>>> b6f65796b0c9a1979450f401cb73ebba5966b1d3
     "data": [
         {
             "type": "Android",
