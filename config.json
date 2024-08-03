@@ -5,30 +5,52 @@
     "data": [
         {
             "type": "Android",
+            "id": 1,
             "downloadLink": "download/PlatformNext.apk"
         },
         {
+            "type": "Android1",
+            "id": 2,
+            "downloadLink": "download/PlatformNext1.apk"
+        },
+        {
+            "type": "Android2",
+            "id": 3,
+            "downloadLink": "download/PlatformNext2.apk"
+        },
+        {
+            "type": "IOS",
+            "id": 4,
+            "downloadLink": "https://testflight.apple.com/join/ntqwoorV"
+        },
+        {
             "type": "Window64",
+            "id": 5,
             "downloadLink": "download/PlatformNext.exe"
         },
         {
             "type": "Linux1",
+            "id": 6,
             "downloadLink": "download/PlatformNext.deb"
         },
         {
             "type": "Linux2",
+            "id": 7,
             "downloadLink": "download/PlatformNext.rpm"
         },{
             "type": "Linux3",
+            "id": 8,
             "downloadLink": "download/PlatformNext.AppImage"
         },
         {
             "type": "MacOS",
+            "id": 9,
             "downloadLink": "download/PlatformNext.dmg"
         },
         {
-            "type": "IOS",
-            "downloadLink": "https://testflight.apple.com/join/ntqwoorV"
+            "type": "MacOS2",
+            "id": 10,
+            "downloadLink": "download/PlatformNext.pkg"
         }
     ]
 }
