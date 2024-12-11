@@ -1,7 +1,7 @@
 {
     "versionName": "1.0.0",
-    "versionCode": 11,
-    "updateAt": "7/10/2024",
+    "versionCode": 12,
+    "updateAt": "27/11/2024",
     "data": [
         {
             "type": "Android",
@@ -21,7 +21,7 @@
         {
             "type": "IOS",
             "id": 4,
-            "downloadLink": "https://testflight.apple.com/join/ntqwoorV"
+            "downloadLink": "https://testflight.apple.com/join/2ZjhcfxR"
         },
         {
             "type": "Window64",
