@@ -51,6 +51,11 @@
             "type": "MacOS2",
             "id": 10,
             "downloadLink": "download/PlatformNext.pkg"
+        },
+        {
+            "type": "AndroidPlayStore",
+            "id": 11,
+            "downloadLink": "https://platformnext.dev"
         }
     ]
 }
