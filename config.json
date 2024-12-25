@@ -6,55 +6,66 @@
         {
             "type": "Android",
             "id": 1,
+            "size": "72MB",
             "downloadLink": "download/PlatformNext.apk"
         },
         {
             "type": "Android1",
             "id": 2,
+            "size": "41MB",
             "downloadLink": "download/PlatformNext1.apk"
         },
         {
             "type": "Android2",
             "id": 3,
+            "size": "41MB",
             "downloadLink": "download/PlatformNext2.apk"
         },
         {
             "type": "IOS",
             "id": 4,
+            "size": "110MB",
             "downloadLink": "https://testflight.apple.com/join/2ZjhcfxR"
         },
         {
             "type": "Window64",
             "id": 5,
+            "size": "26MB",
             "downloadLink": "download/PlatformNext.exe"
         },
         {
             "type": "Linux1",
             "id": 6,
+            "size": "27MB",
             "downloadLink": "download/PlatformNext.deb"
         },
         {
             "type": "Linux2",
             "id": 7,
+            "size": "33.5MB",
             "downloadLink": "download/PlatformNext.rpm"
         },{
             "type": "Linux3",
             "id": 8,
+            "size": "35MB",
             "downloadLink": "download/PlatformNext.AppImage"
         },
         {
             "type": "MacOS",
             "id": 9,
+            "size": "59.7MB",
             "downloadLink": "download/PlatformNext.dmg"
         },
         {
             "type": "MacOS2",
             "id": 10,
+            "size": "60MB",
             "downloadLink": "download/PlatformNext.pkg"
         },
         {
             "type": "AndroidPlayStore",
             "id": 11,
+            "size": "35MB",
             "downloadLink": "https://platformnext.dev"
         }
     ]
