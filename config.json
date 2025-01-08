@@ -67,6 +67,12 @@
             "id": 11,
             "size": "35MB",
             "downloadLink": "https://platformnext.dev"
+        },
+        {
+            "type": "IPA",
+            "id": 12,
+            "size": "70MB",
+            "downloadLink": "download/PlatformNext.ipa"
         }
     ]
 }
