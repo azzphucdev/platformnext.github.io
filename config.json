@@ -6,25 +6,25 @@
         {
             "type": "Android",
             "id": 1,
-            "size": "95MB",
+            "size": "71MB",
             "downloadLink": "download/PlatformNext.apk"
         },
         {
             "type": "Android1",
             "id": 2,
-            "size": "55MB",
+            "size": "40MB",
             "downloadLink": "download/PlatformNext1.apk"
         },
         {
             "type": "Android2",
             "id": 3,
-            "size": "54MB",
+            "size": "40MB",
             "downloadLink": "download/PlatformNext2.apk"
         },
         {
             "type": "IOS",
             "id": 4,
-            "size": "80MB",
+            "size": "70MB",
             "downloadLink": "https://testflight.apple.com/join/cKG26qfv"
         },
         {
