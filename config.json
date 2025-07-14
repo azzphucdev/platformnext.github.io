@@ -1,7 +1,7 @@
 {
     "versionName": "1.0.0",
-    "versionCode": 20,
-    "updateAt": "8.8.2025",
+    "versionCode": 21,
+    "updateAt": "14/7/2025, Win/Linux V20",
     "data": [
         {
             "type": "Android",
@@ -24,7 +24,7 @@
         {
             "type": "IOS",
             "id": 4,
-            "size": "70MB",
+            "size": "80MB",
             "downloadLink": "https://testflight.apple.com/join/cKG26qfv"
         },
         {
@@ -53,13 +53,13 @@
         {
             "type": "MacOS",
             "id": 9,
-            "size": "59.7MB",
+            "size": "63.3MB",
             "downloadLink": "download/PlatformNext.dmg"
         },
         {
             "type": "MacOS2",
             "id": 10,
-            "size": "60MB",
+            "size": "63.9MB",
             "downloadLink": "download/PlatformNext.pkg"
         },
         {
