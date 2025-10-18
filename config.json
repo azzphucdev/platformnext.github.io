@@ -4,6 +4,20 @@
     "updateAt": "23:01 14/10/2025",
     "data": [
         {
+            "type": "IOSAppStore",
+            "id": 13,
+            "enabled": true,
+            "size": "69MB",
+            "downloadLink": "https://apps.apple.com/us/app/platformnext-unlimited-vpn/id6741474000"
+        },
+        {
+            "type": "AndroidPlayStore",
+            "enabled": true,
+            "id": 11,
+            "size": "40MB",
+            "downloadLink": "https://play.google.com/store/apps/details?id=dev.platformnext.vpn"
+        },
+        {
             "type": "Android",
             "id": 1,
             "size": "69MB",
@@ -67,20 +81,6 @@
             "id": 12,
             "size": "69MB",
             "downloadLink": "https://apps.apple.com/us/app/platformnext-unlimited-vpn/id6741474000"
-        },
-	    {
-            "type": "IOSAppStore",
-            "id": 13,
-            "enabled": true,
-            "size": "69MB",
-            "downloadLink": "https://apps.apple.com/us/app/platformnext-unlimited-vpn/id6741474000"
-        },
-        {
-            "type": "AndroidPlayStore",
-            "enabled": true,
-            "id": 11,
-            "size": "40MB",
-            "downloadLink": "https://play.google.com/store/apps/details?id=dev.platformnext.vpn"
         }
     ]
 }
