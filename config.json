@@ -1,7 +1,7 @@
 {
     "versionName": "1.0.4",
-    "versionCode": 114,
-    "updateAt": "23:01 14/10/2025",
+    "versionCode": 115,
+    "updateAt": "10:01 20/10/2025",
     "data": [
         {
             "type": "IOSAppStore",
@@ -39,7 +39,7 @@
             "type": "IOS",
             "id": 4,
             "size": "80MB",
-            "downloadLink": "https://testflight.apple.com/join/vcv9Y8wD"
+            "downloadLink": "https://testflight.apple.com/join/ntTf94hr"
         },
         {
             "type": "Window64",
