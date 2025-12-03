@@ -1,7 +1,7 @@
 {
     "versionName": "1.0.6",
-    "versionCode": 143,
-    "updateAt": "09:09 27/11/2025 - FAndroid Root Share",
+    "versionCode": 145,
+    "updateAt": "23:09 3/12/2025 - Dual IPv6/4 Support",
     "data": [
         {
             "type": "IOSAppStore",
