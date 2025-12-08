@@ -1,7 +1,7 @@
 {
     "versionName": "1.0.6",
-    "versionCode": 147,
-    "updateAt": "22:21 4/12/2025 - Dual IPv6/4 Support",
+    "versionCode": 148,
+    "updateAt": "22:21 8/12/2025 - Added Hys2, Wr, TunfD",
     "data": [
         {
             "type": "IOSAppStore",
