@@ -76,6 +76,41 @@
             font-size: 0.95rem;
         }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const note = document.getElementById('redirect-note');
+            let remainingSeconds = 20;
+            const announcementTimes = new Set([20, 15, 10, 5, 3, 2, 1, 0]);
+
+            function updateRedirectNote() {
+                if (!note) {
+                    return;
+                }
+
+                if (remainingSeconds <= 0) {
+                    note.textContent = 'Redirecting to the download page now...';
+                    return;
+                }
+
+                if (!announcementTimes.has(remainingSeconds)) {
+                    return;
+                }
+
+                note.textContent = 'You will be redirected to the download page automatically in ' + remainingSeconds + ' second' + (remainingSeconds === 1 ? '' : 's') + '.';
+            }
+
+            updateRedirectNote();
+
+            const countdown = window.setInterval(function () {
+                remainingSeconds -= 1;
+                updateRedirectNote();
+
+                if (remainingSeconds <= 0) {
+                    window.clearInterval(countdown);
+                }
+            }, 1000);
+        });
+    </script>
 </head>
 <body>
     <main>
@@ -91,7 +126,7 @@
             <li>Downloads available for Android, iOS, Windows, Linux, and macOS</li>
         </ul>
         <a href="https://platformnext.dev/#/download">Open PlatformNext downloads</a>
-        <p class="note">You will be redirected to the download page automatically in 20 seconds.</p>
+        <p id="redirect-note" class="note" role="status" aria-live="assertive" aria-atomic="true">You will be redirected to the download page automatically in 20 seconds.</p>
     </main>
 </body>
 </html>
