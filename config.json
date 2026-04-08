@@ -1,7 +1,7 @@
 {
     "versionName": "1.0.9",
-    "versionCode": 222,
-    "updateAt": "22:29 7/4/2026",
+    "versionCode": 228,
+    "updateAt": "12:29 8/4/2026",
     "data": [
         {
             "type": "IOSAppStore",
@@ -58,7 +58,8 @@
             "id": 7,
             "size": "33.5MB",
             "downloadLink": "download/PlatformNext.rpm"
-        },{
+        },
+        {
             "type": "Linux3",
             "id": 8,
             "size": "35MB",
