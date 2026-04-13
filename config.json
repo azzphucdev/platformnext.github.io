@@ -8,7 +8,7 @@
             "id": 13,
             "enabled": true,
             "size": "69MB",
-            "downloadLink": "https://testflight.apple.com/join/ntTf94hr"
+            "downloadLink": "https://apps.apple.com/vn/app/platform-next-unlimited-vpn/id6741474000"
         },
         {
             "type": "AndroidPlayStore",
@@ -39,7 +39,7 @@
             "type": "IOS",
             "id": 4,
             "size": "80MB",
-            "downloadLink": "https://testflight.apple.com/join/ntTf94hr"
+            "downloadLink": "https://apps.apple.com/vn/app/platform-next-unlimited-vpn/id6741474000"
         },
         {
             "type": "Window64",
@@ -80,7 +80,7 @@
             "type": "IPA",
             "id": 12,
             "size": "69MB",
-            "downloadLink": "https://testflight.apple.com/join/ntTf94hr"
+            "downloadLink": "https://apps.apple.com/vn/app/platform-next-unlimited-vpn/id6741474000"
         }
     ]
 }
