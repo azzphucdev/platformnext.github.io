@@ -8,7 +8,7 @@
             "id": 13,
             "enabled": true,
             "size": "69MB",
-            "downloadLink": "https://apps.apple.com/vn/app/platform-next-unlimited-vpn/id6741474000"
+            "downloadLink": "https://testflight.apple.com/join/c2cqrUur"
         },
         {
             "type": "AndroidPlayStore",
@@ -21,19 +21,19 @@
             "type": "Android",
             "id": 1,
             "size": "82MB",
-            "downloadLink": "download/PlatformNext.apk"
+            "downloadLink": "https://github.com/azzphucdev/PlatformNext-Releases/releases/download/v1.1.2-beta%2B273/PlatformNext_universal.apk"
         },
         {
             "type": "Android1",
             "id": 2,
             "size": "50MB",
-            "downloadLink": "download/PlatformNext1.apk"
+            "downloadLink": "https://github.com/azzphucdev/PlatformNext-Releases/releases/download/v1.1.2-beta%2B273/PlatformNext_universal.apk"
         },
         {
             "type": "Android2",
             "id": 3,
             "size": "50MB",
-            "downloadLink": "download/PlatformNext2.apk"
+            "downloadLink": "https://github.com/azzphucdev/PlatformNext-Releases/releases/download/v1.1.2-beta%2B273/PlatformNext_universal.apk"
         },
         {
             "type": "IOS",
@@ -45,43 +45,43 @@
             "type": "Window64",
             "id": 5,
             "size": "26MB",
-            "downloadLink": "download/PlatformNext.exe"
+            "downloadLink": "https://github.com/azzphucdev/PlatformNext-Releases/releases/download/v1.1.2-beta%2B272/PlatformNext_x86_64.exe"
         },
         {
             "type": "Linux1",
             "id": 6,
             "size": "27MB",
-            "downloadLink": "download/PlatformNext.deb"
+            "downloadLink": "https://github.com/azzphucdev/PlatformNext-Releases/releases/download/v1.1.2-beta%2B272/PlatformNext_x86_64.deb"
         },
         {
             "type": "Linux2",
             "id": 7,
             "size": "33.5MB",
-            "downloadLink": "download/PlatformNext.rpm"
+            "downloadLink": "https://github.com/azzphucdev/PlatformNext-Releases/releases/download/v1.1.2-beta%2B272/PlatformNext_x86_64.rpm"
         },
         {
             "type": "Linux3",
             "id": 8,
             "size": "35MB",
-            "downloadLink": "download/PlatformNext.AppImage"
+            "downloadLink": "https://github.com/azzphucdev/PlatformNext-Releases/releases/download/v1.1.2-beta%2B272/PlatformNext_x86_64.AppImage"
         },
         {
             "type": "MacOS",
             "id": 9,
             "size": "90MB",
-            "downloadLink": "download/PlatformNext.dmg"
+            "downloadLink": "https://github.com/azzphucdev/PlatformNext-Releases/releases/download/v1.1.2-beta%2B273/PlatformNext_universal.dmg"
         },
         {
             "type": "MacOS2",
             "id": 10,
             "size": "90MB",
-            "downloadLink": "download/PlatformNext.pkg"
+            "downloadLink": "https://github.com/azzphucdev/PlatformNext-Releases/releases/download/v1.1.2-beta%2B273/PlatformNext_universal.pkg"
         },
         {
             "type": "IPA",
             "id": 12,
             "size": "69MB",
-            "downloadLink": "https://apps.apple.com/vn/app/platform-next-unlimited-vpn/id6741474000"
+            "downloadLink": "https://testflight.apple.com/join/c2cqrUur"
         }
     ]
 }
